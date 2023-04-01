@@ -65,7 +65,7 @@ hr{
 .header__content{
     width: 100%;
     height: 700px;
-    background-image: url(/img/homeSlider.png);
+    background-image: url('https://i.postimg.cc/LsZ5ySXF/home-Slider.png');
     background-size: cover;
     background-position: center;
     color: white;

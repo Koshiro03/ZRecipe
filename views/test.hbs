@@ -1,0 +1,140 @@
+    <style>
+        /* Categorias */
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.categorias .caja{
+    margin: 8px;
+}
+
+.tituloCategorias{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tituloCategorias h1{
+    font-size: 30px;
+    color: #47475b;
+}
+
+.pregunta{
+padding-top: 5%;
+padding-left: 15%;
+
+}
+
+.resultado{
+padding-top: 5%;
+background-color: black;
+color: white;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.resultado h1{
+color: white;
+font-size: 35pt;
+padding-bottom: 5%;
+}
+    </style>
+    
+    <header class="header">
+        <div class="header__content">
+            <div class="texto" style="text-align: center; padding-top:2%">
+                <span style="font-size: 25pt; font-weight: 600;">Test
+                </span><br>
+                <span style="font-size: 50pt; font-weight: 800;">QUE TIPO DE CHEFF SOS
+                </span><br>
+                <span style="font-size: 20pt;">Respondé las preguntas con sinseridad. <br>Sumá tus puntos, y descubrilo!</span> 
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="pregunta">
+            <h1>Reunión con amigos</h1>
+            <hr>
+            <h3>1. Cocino yo solx (5 puntos)</h3>
+            <h3>2. Cocino yo, con ayudante (3 puntos)</h3>
+            <h3>3. Cocina otrx, yo ayudo (2 puntos)</h3>
+            <h3>4. Cocina otrx (0 puntos)</h3>
+        </div>
+        <div class="pregunta">
+            <h1>Si elijo yo la receta, cuál sería el ingrediente principal.</h1>
+            <hr>
+            <h3>1. Carne vacuna (5 puntos)</h3>
+            <h3>2. Carne de pollo (3 puntos)</h3>
+            <h3>3. Frutos secos (2 puntos)</h3>
+            <h3>4. Vegetales (0 puntos)</h3>
+        </div>
+        <div class="pregunta">
+            <h1>Si te vas de viaje, qué utensillo te llevarías.</h1>
+            <hr>
+            <h3>1. Anafe eléctrico (5 puntos)</h3>
+            <h3>2. Escurridor de lechuga (3 puntos)</h3>
+            <h3>3. Cuchillo afilado (2 puntos)</h3>
+            <h3>4. Ninguno, estoy de viaje (0 puntos)</h3>
+        </div>
+        <div class="pregunta">
+            <h1>Tipo de cocción preferida.</h1>
+            <hr>
+            <h3>1. Vapor (5 puntos)</h3>
+            <h3>2. Fritura (3 puntos)</h3>
+            <h3>3. Plancha (2 puntos)</h3>
+            <h3>4. Parrilla (0 puntos)</h3>
+        </div>
+        <div class="pregunta">
+            <h1>Tipo de comida preferida para cocinar</h1>
+            <hr>
+            <h3>1. Gourmet, cocina paso a paso (5 puntos)</h3>
+            <h3>2. Carne al horno con papas (3 puntos)</h3>
+            <h3>3. Pastas (2 puntos)</h3>
+            <h3>4. Ensalada (1 puntos)</h3>
+        </div>
+        <div class="pregunta" style="padding-bottom: 5%;">
+            <h1>Maridaje para la comida</h1>
+            <hr>
+            <h3>1. Es infaltable (5 puntos)</h3>
+            <h3>2. Es escencial, pero no lo tengo en cuenta (3 puntos)</h3>
+            <h3>3. A veces si, a veces no (2 puntos)</h3>
+            <h3>4. No siempre (0 puntos)</h3>
+        </div>
+    </section>
+
+
+<div class="resultado">
+    <div class="tituloCategorias"><h1>RESULTADO</h1></div>
+
+    <div class="categorias main-padding">
+            <div class="caja">
+                <img src="https://i.postimg.cc/qqd3f9dt/baker.png" style="width: 120px;">                
+                <h4>Perfeccionista</h4>
+                <h5>De 26 a 30</h5>
+                <p>Te apasiona la cocina! Si ya tenés experiencia,  <br>recomendamos los cursos avanzados.</p>
+            </div>
+            <div class="caja">
+                <img src="https://i.postimg.cc/KjzyYYbC/baker-1.png" style="width: 120px;"> 
+                <h4>Cheff ocasional</h4>
+                <h5>De 21 a 25</h5>
+                <p>Te recomendamos cursos medio-avanzados. </p>
+            </div>
+            <div class="caja">
+                <img src="https://i.postimg.cc/CL9VFYQ6/chef.png" style="width: 120px;"> 
+                <h4>Cheff inicial</h4>
+                <h5>De 11 a 20</h5>
+                <p>Todavía te faltan algunos conceptos, <br>te recomendamos tomar los cursos inciales<br> para repasar y avanzar a los medios.</p>
+            </div>
+            <div class="caja">
+                <img src="https://i.postimg.cc/hPVqPNRD/cooking-1.png" style="width: 120px;"> 
+                <h4>Cheff del hogar</h4>
+                <h5>De 1 a 10</h5>
+                <p>Si te gusta la cocina, empieza por los básicos.</p>
+            </div>
+    </div>
+</div>

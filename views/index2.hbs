@@ -1,20 +1,137 @@
+    <style>
+        .header__content{
+        width: 100%;
+        height: 700px;
+        background-image: url('https://i.postimg.cc/LsZ5ySXF/home-Slider.png');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-left: 10%;
+    }
+        .header__content .texto{
+    text-align: left;
+        }
+    
+        .welcome{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        
+    }
 
+.welcome h1{
+    font-size: 40px;
+    color: #47475b;
+    padding-top: 5%;
+}
+section .welcome p{
+    font-size: 30px;
+    line-height: 1.4;
+    color: #90909b;    
+    padding-bottom: 5%;
+}
+section .welcome i{
+    font-size: 30px;
+}
 
+/* Categorias */
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.categorias .caja{
+    margin: 8px;
+}
 
+.tituloCategorias{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tituloCategorias h1{
+    font-size: 30px;
+    color: #47475b;
+}
+
+/* Test */
+.test{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-top: 185px;
+    padding-bottom: 85px;
+    
+}
+.test .caja{
+    width: 100%;
+    padding: 100px;
+}
+.caja.textoTest{
+    background: black;
+    color: white;
+}
+.caja p{
+    font-size: 16pt;
+}
+
+#btn-negro{
+    cursor: pointer;
+    background-color: #E3B431;
+    color: white;
+    font-size: 12pt;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+}
+#btn-negro:hover{
+    background-color: white;
+    color: black;
+}
+
+.jugar{
+    background-color: #E3B431;
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    }
+
+.jugar a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 17pt;
+    padding: 5px;
+    }
+
+    </style>
+    
+    
     <header class="header">
         <div class="header__content">
-            <div class="texto">
-                <span>Tus habilidades
+            <div class="texto" >
+                <span style="font-size: 25pt; font-weight: 600;">Tus habilidades
                 </span><br>
-                <span>EN OTRO NIVEL
+                <span style="font-size: 50pt; font-weight: 800;">EN OTRO NIVEL
                 </span><br>
-                <span>Tenemos un curso para cada necesidad. Desde co                                                                              cina profesional hasta cocina hogareña.</span> 
+                <span style="font-size: 20pt;">Tenemos un curso para cada necesidad. <br>Desde cocina profesional hasta cocina hogareña.</span> 
             </div>
         </div>
     </header>
 
     <section >
-        <hr>
         <div class="welcome">
             <h1>Bienvenid@</h1>
             <p>Disfrutamos y compartimos el placer de cocinar. Creemos en la gastronomía como una manera de <i>transmitir sensaciones</i> y de reflejar el placer por la comida en todas sus vertientes. Por ello, queremos que disfrutes de nuestros talleres y que te dejes <i>envolver por la cocina por completo</i>, con todos los sentidos: el olfato, el oído, la vista, el tacto y, por supuesto, el paladar.</p>
@@ -26,67 +143,31 @@
 
     <div class="categorias main-padding">
             <div class="caja">
-                <img src="/img/aves.png" alt="">
+                <img src="https://i.postimg.cc/LsgPMZHJ/aves.png" alt="">
             </div>
             <div class="caja">
-                <img src="/img/peces.png" alt="">
+                <img src="https://i.postimg.cc/hGDG8md6/peces.png" alt="">
             </div>
             <div class="caja">
-                <img src="/img/panes.png" alt="">
+                <img src="https://i.postimg.cc/C57B4G4Q/panes.png" alt="">
             </div>
             <div class="caja">
-                <img src="/img/vegano.png" alt="">
+                <img src="https://i.postimg.cc/zGVbnRHx/vegano.png" alt="">
             </div>
             <div class="caja">
-                <img src="/img/postres.png" alt="">
+                <img src="https://i.postimg.cc/0NSz4Rfm/postres.png" alt="">
             </div>
     </div>
 
 
-    <div class="lechuga main-padding">
-        <div class="caja textoLechuga">
-            <h1>Curso de Lechuga</h1>
-            <h3 style="margin-top: 30px; font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pellentesque quam. Vestibulum ut vehicula mauris. Pellentesque gravida libero sit amet lectus scelerisque luctus. Cras et ex varius, elementum turpis sit amet, feugiat felis. Fusce aliquam id sem non gravida. Aliquam nisi lorem, facilisis in pellentesque id, egestas quis nibh.</h3>
-        <form class="d-flex" role="registrarse" method="get" action="/pages/lechuga.html">
-            <button class="btn" type="submit" id="btn-negro">Empeza ahora</button>
-        </form>
-        <div style="margin-top: 50px">
-          <h2>Dificultad: Media</h2>
-        </div>
-          <div style="margin-top: 15px; margin-bottom: 45px;">
-            <div>
-              <img src="./img/estrellaico.png">
-              <img src="./img/estrellaico.png">
-              <img src="./img/estrellaico.png">
-              <img src="./img/emptyestrellaico.png">
-              <img src="./img/emptyestrellaico.png">
-            </div>
-          </div>
-          <div><img src="./img/mgico.png"><img src="./img/shareico.png"></div>
-        </div>
+    <div class="test main-padding">
+        <div class="caja textoTest">
+            <h1>¡Jugá con nosotrxs!</h1>
+            <h3 style="margin-top: 30px; font-size: 20px">Animate a hacer el test para averiguar que tipo de Cheff sos. Respondé a las preguntas y anotá tu puntaje. Te va a ayudar a decidir a que tipos de cursos anotarte. </h3>
+
+            <div class="jugar"><a href="/api/test"><img src="https://i.postimg.cc/XvF12qyb/cooking.png" style="width: 120px;">JUGAR</a>
+        </div>  
+    </div>
+
         
-        <div class="caja imagenLechuga">
-            <img src="/img/lechuga.jpg" width="100%" alt="">
-        </div>
-    </div>
-
-    <div class="tituloCategorias"><h1>¿Por qué estudiar con nosotros?</h1></div>    
-
-    <div class="ico main-padding">
-            <div class="caja">
-                <img src="/img/relojico.png" alt="">
-                <p>Tiempo</p>
-            </div>
-            <div class="caja">
-                <img src="/img/mentorico.png" alt="">
-                <p>Mentoría</p>
-            </div>
-            <div class="caja">
-                <img src="/img/recetasico.png" alt="">
-                <p>Recetas</p>
-            </div>
-            <div class="caja">
-                <img src="/img/videoico.png" alt="">
-                <p>Videos</p>
-            </div>    
     </div>

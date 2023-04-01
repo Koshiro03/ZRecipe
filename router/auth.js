@@ -32,6 +32,10 @@ router.get('/index2', (req, res) => {
     res.render('index2')
 });
 
+router.get('/test', (req, res) => {
+    res.render('test')
+});
+
 router.post('/create', [
     check('nombre').isLength({min:5}),
     check('email').isEmail(),
